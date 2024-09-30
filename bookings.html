@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="bookings.css">
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <img src="images/logo.png" alt="">
+                <ul>
+                    <li><a class="home" href="index.html">Home</a></li>
+                    <li><a class="n2" href="bookings.html">Flights</a></li>
+                    <li><a href="">Hotel</a></li>
+                    <li><a href="">Tour Packages</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <h3><i class="fa-solid fa-magnifying-glass"></i><a href="login.html"> Login </a>/ <a href="signup.html"> Signup </a></h3>
+            </nav>
+        </header>
+        <div class="banner">
+            <div class="b1">
+                <img src="images/vacation.png" alt="">
+            </div>
+            <div class="b2">
+                <h1>Flight Booking</h1>
+            </div>
+            <div class="b3">
+                <img src="images/plane.png" alt="img" width="450px">
+            </div>
+        </div>
+        <div class="form">
+            <div class="personalinfo">
+                <h1>Enter Your Details</h1> <br>
+                <select id="gender" >
+                    <option value="Gender">Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+                <input id="Name" type="text" placeholder="Name">
+                <input id="Email" type="email" placeholder="Email">
+                <input id="Nationality" type="text" placeholder="Nationality">
+                <input id="Your number" class="your" type="tel" placeholder="Your number">
+                <input id="Address" type="text" placeholder="Address">
+                <input id="Flight Number" class="flightnumber" type="number" placeholder="Flight Number">
+                <label for="Date Of Birth">Date Of Birth</label>
+                <input id="Date Of Birth" class="dob" type="date" placeholder="Date Of Birth">
+            </div>    
+            <div class="details">
+               <h2>Your Booking Details</h2>
+               <img src="./images/image.png" alt="" width="450px">
+            </div>  
+             
+        </div>
+        <div class="flight">
+            <input id="From" type="text" placeholder="From">
+            <input id="To" type="text" placeholder="TO">
+            <label class="dp" for="Departure">Departure Date </label>
+            <input id="Departure" type="date" >
+            <input  id="Passengers"  type="number" placeholder="Add passengers"> <br>
+            <select id="Class"  >
+                <option value="Economy class">Economy class</option>
+                <option value="Business class">Business class</option>
+                <option value="First Class">First Class</option>
+            </select>
+            <select id="Meal" >
+                <option value="Select Meal">Select Meal Type</option>
+                <option value="Vegetarian">Vegetarian</option>
+                <option value="Non-Veg">Non-Veg</option>
+                <option value="Fast Food">Fast Food</option>
+            </select>
+            <button id="btn">Procced To Checkout </button>
+        </div> 
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

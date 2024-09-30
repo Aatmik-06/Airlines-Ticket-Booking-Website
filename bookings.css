@@ -1,0 +1,211 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: rgb(237, 237, 243);
+}
+
+.container {
+  width: 100%;
+  color: rgb(49, 53, 55);
+  padding: 0 5vw;
+}
+
+.n2 {
+  color: rgb(77, 115, 252);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 18px;
+  font-size: 17px;
+  font-weight: 560;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 35px;
+  align-items: center;
+}
+header nav a {
+  color: rgb(49, 53, 55);
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+header nav a:hover {
+  color: rgb(77, 115, 252);
+}
+header nav h3 {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  padding-bottom: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner h1 {
+  font-size: 50px;
+  color: black;
+}
+.banner .b1 img {
+  width: 75%;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.personalinfo {
+  border-radius: 20px;
+  width: 64%;
+  justify-content: space-between;
+  box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.244);
+  background-color: white;
+  padding: 20px;
+  padding: 50px;
+}
+.personalinfo #Name {
+  width: 350px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.personalinfo #Email {
+  width: 350px;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.personalinfo #Nationality {
+  width: 350px;
+  margin-right: 30px;
+}
+.personalinfo .your {
+  width: 350px;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.personalinfo #Address {
+  width: 350px;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.personalinfo .flightnumber {
+  width: 350px;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.personalinfo .dob {
+  width: 255px;
+}
+.personalinfo #gender {
+  width: 350px;
+}
+.personalinfo input {
+  background-color: rgb(231, 235, 255);
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 3px;
+}
+.personalinfo select {
+  background-color: rgb(231, 235, 255);
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.personalinfo h1 {
+  background-color: white;
+}
+.personalinfo .personalinfo {
+  background-color: white;
+}
+.personalinfo label {
+  background-color: white;
+}
+
+.details h2 {
+  padding: 20px;
+  border-radius: 18px 20px 0px 0px;
+  background-color: rgb(200, 208, 240);
+  font-weight: 550;
+}
+
+.flight {
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 50px;
+  width: 64%;
+  justify-content: space-between;
+  box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.244);
+  background-color: white;
+}
+.flight input {
+  background-color: rgb(231, 235, 255);
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 3px;
+}
+.flight select {
+  background-color: rgb(231, 235, 255);
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.flight #From {
+  width: 350px;
+  margin-right: 55px;
+}
+.flight #To {
+  width: 350px;
+  margin-bottom: 40px;
+}
+.flight .dp {
+  font-size: 18px;
+  color: rgb(103, 103, 103);
+  background-color: white;
+}
+.flight #Departure {
+  width: 220px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+.flight #Class {
+  margin-right: 50px;
+  width: 350px;
+}
+.flight #Passengers {
+  width: 350px;
+  margin-left: 8px;
+  margin-bottom: 40px;
+}
+.flight #Meal {
+  width: 350px;
+  margin-left: 7px;
+  margin-bottom: 40px;
+}
+.flight button {
+  border: none;
+  padding: 14px 300px;
+  color: white;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: rgb(77, 115, 252);
+  transition: all 0.3s linear;
+}
+.flight button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 18px rgba(77, 115, 252, 0.495);
+}/*# sourceMappingURL=bookings.css.map */
