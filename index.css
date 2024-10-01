@@ -1,0 +1,147 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: rgb(237, 237, 243);
+}
+
+.container {
+  width: 100%;
+  color: rgb(49, 53, 55);
+  margin-bottom: 70px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 18px;
+  font-size: 17px;
+  font-weight: 560;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 35px;
+  align-items: center;
+}
+header nav a {
+  color: rgb(49, 53, 55);
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+header nav a:hover {
+  color: rgb(77, 115, 252);
+}
+header nav h3 {
+  font-size: 21px;
+  font-weight: 500;
+}
+header nav .home {
+  color: rgb(77, 115, 252);
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  align-content: center;
+  padding: 120px 0 35px 0;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.banner span {
+  color: rgb(77, 115, 252);
+}
+.banner h1 {
+  font-weight: 700;
+  font-size: 50px;
+  color: black;
+  letter-spacing: -1.22px;
+}
+.banner p {
+  font-size: 15px;
+  color: rgb(84, 87, 88);
+}
+.banner button {
+  background-color: rgb(77, 115, 252);
+  color: white;
+  border: none;
+  padding: 12px 22px 12px 22px;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: all 0.3s linear;
+  box-shadow: 0.5px 0.5px 10px rgb(77, 115, 252);
+}
+.banner button:hover {
+  background-color: rgb(237, 237, 243);
+  color: rgb(49, 53, 55);
+}
+.banner .plane img {
+  width: 100%;
+  transition: all 0.3s linear;
+}
+.banner .plane img:hover {
+  transform: scale(1.03);
+}
+
+.content {
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.c1 {
+  margin-left: -8px;
+  display: flex;
+  justify-content: space-between;
+}
+.c1 div {
+  border-radius: 12px;
+  padding: 20px;
+  background-color: white;
+}
+.c1 div img {
+  border-radius: 11.5px;
+  width: 400px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.c1 div h3 {
+  background-color: white;
+  font-size: 22px;
+  font-weight: 550;
+}
+.c1 div h5 {
+  background-color: white;
+  font-size: 15px;
+  font-weight: 450;
+}
+.c1 div p {
+  background-color: white;
+  font-size: 17px;
+}
+.c1 div h2 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.c1 div h2 a {
+  background-color: white;
+}
+.c1 div h2 button {
+  padding: 11px 18px 11px 18px;
+  background-color: rgb(77, 115, 252);
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.c1 div h2 button:hover {
+  color: black;
+  background-color: white;
+  box-shadow: 0px 0px 18px rgba(77, 115, 252, 0.495);
+}/*# sourceMappingURL=style.css.map */

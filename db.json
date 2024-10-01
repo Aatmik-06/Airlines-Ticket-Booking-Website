@@ -1,5 +1,38 @@
 {
   "customer": [
-  
+    {
+      "id": "9776",
+      "Gender": "Male",
+      "Name": "Aatmik Kushwaha",
+      "Email": "adi120kush@gmail.com",
+      "Nationality": "Indian",
+      "YourNumber": "9857456879",
+      "Address": "Saket Nagar ,Bhopal",
+      "FlightNumber": "05647",
+      "DateOfBirth": "2024-10-09",
+      "From": "Dubai ",
+      "To": "Delhi",
+      "Departure": "2024-10-03",
+      "Class": "Business class",
+      "Passengers": "1",
+      "Meal": "Vegetarian"
+    },
+    {
+      "id": "49d7",
+      "Gender": "Male",
+      "Name": "Safal Patil",
+      "Email": "Safal@gmail.com",
+      "Nationality": "Indian",
+      "YourNumber": "8564751245",
+      "Address": "Saket Nagar ,Bhopal",
+      "FlightNumber": "05426",
+      "DateOfBirth": "2024-10-09",
+      "From": "Dubai ",
+      "To": "Canada",
+      "Departure": "2024-10-25",
+      "Class": "Business class",
+      "Passengers": "1",
+      "Meal": "Non-Veg"
+    }
   ]
 }

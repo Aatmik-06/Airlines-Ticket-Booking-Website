@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"id="onclick">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Airlines DashBoard</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo" >
+                 <div><img src="./images/logo.png" alt="img" width="5px" height="20px"> 
+                </div>
+               
+            </div>
+            <i class="fa-solid fa-bell"></i>
+            <i id="user" class="fa-solid fa-circle-user"></i>
+        </div>
+    </header> <br><br>
+<div class="main">
+    <div class="sidepanel" id="onclick2">
+        <div class="sidepanelitems" >
+            <div><a href="index.html"><button><i class="fa-solid fa-house"></i>DashBoard</button></a></div>
+            <div><a href="add_employee.html"><button><i class="fa-solid fa-user"></i>Add Passenger</button></a></div>
+            <div><a href="Display.html"><button><i class="fa-solid fa-book-open"></i>Display Data</button></a></div>
+            <div><a href="update.html"><button><i class="fa-solid fa-briefcase"></i></i>Update Data</button></a></div>
+            <div><button><i class="fa-solid fa-users"></i>Clints</button></div>
+            <div><button><i class="fa-regular fa-clipboard"></i>Leave Management</button></div>
+            <div><button><i class="fa-solid fa-phone"></i>Contact</button></div>
+            <div><button><i class="fa-solid fa-map"></i>Map</button></div>
+            <div><a href="login.html"><button><i class="fa-solid fa-arrow-right-to-bracket"></i>Logout</button></a></div>
+        </div>
+        
+    </div>
+    <div class="DisplayContent">
+        <div class="head">
+            <h4>Dashboard&nbsp;&nbsp;<i class="fa-solid fa-house"></i> 
+                <i class="fa-solid fa-chevron-right"></i>
+                Home
+                <i class="fa-solid fa-chevron-right"> &nbsp;
+                </i>Display Data</h4>
+        </div> <br>
+        
+        <div id="table2">
+        </div>
+    </div>
+</div>
+
+    <!-- <button id="onclick1" onclick="fun()"> Light Mode</button> <br>
+    <button id="onclick1" onclick="fun1()"> Dark Mode</button> -->
+    <script src="display.js"></script>
+</body>
+</html>

@@ -36,6 +36,22 @@ async function insert(){
     ){
       alert("All fields are mandatory");
     }else{
+      
+      localStorage.setItem("gender", myGender);
+      localStorage.setItem("Name", myName);
+      localStorage.setItem("Email", myEmail);
+      localStorage.setItem("Nationality",myNationality );
+      localStorage.setItem("Your Number",myYournumber );
+      localStorage.setItem("Address",myAddress );
+      localStorage.setItem("Flight Number",myFlightNumber );
+      localStorage.setItem("Date Of Birth", myDateofbirth);
+      localStorage.setItem("From",myFrom );
+      localStorage.setItem("To",myTo );
+      localStorage.setItem("Departure",myDeparture );
+      localStorage.setItem("Class",myClass );
+      localStorage.setItem("Passangers", myPassengers);
+      localStorage.setItem("Meal",myMeal );
+
     let url  = 'http://localhost:3000/customer';
 
     let response = await fetch(url,{
@@ -67,10 +83,9 @@ async function insert(){
     alert('Proceeding to checkout page')
   }
   
-
   }catch(error){
     console.error("Error:",error);
     alert('Error while adding data')
   }
-  
+
 }
